@@ -4,7 +4,7 @@ import { SectionHeader } from "./Portfolio";
 const packages = [
   {
     name: "Single Asset",
-    price: "from $79",
+    price: "from $45",
     best: "Simple updates or one-off needs",
     features: ["1 icon OR 1 thumbnail", "PNG delivery", "2 minor revisions"],
     cta: "DM to Book",
@@ -12,7 +12,7 @@ const packages = [
   },
   {
     name: "Starter Bundle",
-    price: "$149",
+    price: "$65",
     best: "Small launches or visual refreshes",
     features: ["1 icon", "1 thumbnail", "PNG delivery", "2 minor revisions"],
     cta: "Request This Package",
@@ -20,7 +20,7 @@ const packages = [
   },
   {
     name: "Launch Pack",
-    price: "$299",
+    price: "$150",
     best: "Serious launches and updates",
     features: ["1 icon", "3 thumbnails", "Clear visual hook exploration", "PNG delivery", "2 revision rounds"],
     cta: "Book Launch Pack",
@@ -28,7 +28,7 @@ const packages = [
   },
   {
     name: "Ad Testing Pack",
-    price: "from $449",
+    price: "from $300",
     best: "Games running ads or testing hooks",
     features: ["5–8 creative variants", "Action, reward, progression, character, mystery angles", "Designed for launch/update/ad use", "PNG delivery"],
     cta: "Request This Package",
