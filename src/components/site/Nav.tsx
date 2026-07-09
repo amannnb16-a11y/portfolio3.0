@@ -5,11 +5,11 @@ import { Menu, X } from "lucide-react";
 import brandIcon from "../../assets/image/brand-icon.webp";
 
 const links = [
-  { href: "#work", label: "Work" },
-  { href: "#packages", label: "Packages" },
-  { href: "#process", label: "Process" },
-  { href: "#faq", label: "FAQ" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#work", label: "Work" },
+  { href: "/#packages", label: "Packages" },
+  { href: "/#process", label: "Process" },
+  { href: "/#faq", label: "FAQ" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export function Nav() {
@@ -64,7 +64,7 @@ export function Nav() {
 
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="#contact"
+            href="/#contact"
             className="rounded-lg bg-gradient-cyan px-4 py-2 text-sm font-semibold text-primary-foreground glow-cyan hover:opacity-95"
           >
             DM on Discord
@@ -93,7 +93,7 @@ export function Nav() {
             <Link to="/beyond-roblox" onClick={() => setOpen(false)} className="font-semibold text-gold hover:text-gold/80">
               Steam Art
             </Link>
-            <a href="#contact" onClick={() => setOpen(false)} className="mt-2 inline-flex justify-center rounded-lg bg-gradient-cyan px-4 py-2.5 font-semibold text-primary-foreground glow-cyan">
+            <a href="/#contact" onClick={() => setOpen(false)} className="mt-2 inline-flex justify-center rounded-lg bg-gradient-cyan px-4 py-2.5 font-semibold text-primary-foreground glow-cyan">
               DM on Discord
             </a>
           </div>
