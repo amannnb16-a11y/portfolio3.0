@@ -68,10 +68,10 @@ const categories = ["Featured", "Anime/Fighting", "Simulator/Progression", "Horr
 type Category = typeof categories[number];
 
 function matches(item: Item, cat: Category) {
-  if (cat === "Featured") return true;
+  if (cat === "Featured") return item.type === "Thumbnail";
   if (cat === "Icons") return item.type === "Icon";
   if (cat === "Thumbnails") return item.type === "Thumbnail";
-  return item.genre === cat;
+  return item.type === "Thumbnail" && item.genre === cat;
 }
 
 export function Portfolio() {
