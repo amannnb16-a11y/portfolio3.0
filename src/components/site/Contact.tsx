@@ -37,16 +37,17 @@ export function Contact() {
               </p>
 
               <div className="mt-7 grid sm:grid-cols-2 gap-3">
-                <div className="card-premium p-4 flex items-center gap-3">
-                  <div className="grid h-11 w-11 place-items-center rounded-lg bg-cyan/10 border border-cyan/30 text-cyan">
+                <div className="relative overflow-hidden rounded-2xl border border-cyan/40 bg-gradient-to-br from-cyan/20 via-cyan/10 to-surface p-4 shadow-[0_0_28px_rgba(0,209,255,0.18)] flex items-center gap-3">
+                  <div className="absolute inset-0 bg-gradient-cyan opacity-10 pointer-events-none" />
+                  <div className="relative grid h-11 w-11 place-items-center rounded-lg bg-cyan/20 border border-cyan/40 text-cyan">
                     <MessageCircle size={18} />
                   </div>
-                  <div className="min-w-0 flex-1">
-                    <div className="text-xs uppercase tracking-wider text-muted-foreground">Discord</div>
-                    <div className="font-semibold truncate">indentina</div>
+                  <div className="relative min-w-0 flex-1">
+                    <div className="text-xs uppercase tracking-wider text-cyan font-bold">Discord</div>
+                    <div className="font-semibold truncate text-foreground">indentina</div>
                   </div>
-                  <button onClick={copy} className="shrink-0 rounded-md border border-border bg-surface px-2.5 py-1.5 text-xs hover:border-cyan/40 inline-flex items-center gap-1">
-                    {copied ? <><Check size={12} className="text-cyan" /> Copied</> : <><Copy size={12} /> Copy</>}
+                  <button onClick={copy} className="relative shrink-0 rounded-lg bg-gradient-cyan px-3 py-2 text-xs font-bold text-primary-foreground glow-cyan inline-flex items-center gap-1 transition-transform hover:-translate-y-0.5">
+                    {copied ? <><Check size={12} /> Copied</> : <><Copy size={12} /> Copy</>}
                   </button>
                 </div>
 
