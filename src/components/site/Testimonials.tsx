@@ -16,7 +16,6 @@ export function Testimonials() {
         <SectionHeader
           eyebrow="Testimonials"
           title="What clients say"
-          subtitle="Real reviews go here — replace the placeholder cards with actual client feedback, pfps and usernames."
           center
         />
 

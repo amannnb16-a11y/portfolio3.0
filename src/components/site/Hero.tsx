@@ -4,7 +4,7 @@ import { DiscoveryMockup } from "./DiscoveryMockup";
 const trust = [
   "Creating Roblox GFX since 2020",
   "5–7 day standard delivery",
-  "Icons • Thumbnails • Ad Variants",
+  "Icons • Thumbnails • Launch Art",
   "No revshare projects",
 ];
 
@@ -36,7 +36,7 @@ export function Hero() {
             </h1>
 
             <p className="mt-6 text-base sm:text-lg text-muted-foreground max-w-xl leading-relaxed">
-              High-impact GFX packages for Roblox games launching, updating, or running ads — designed for genre fit, small-size readability and click appeal.
+              High-impact GFX packages for Roblox games launching, updating, or running ads: designed for genre fit and click appeal.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">

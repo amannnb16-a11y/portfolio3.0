@@ -32,37 +32,36 @@ type Item = {
   title: string;
   genre: string;
   type: "Icon" | "Thumbnail";
-  note: string;
   image: string;
 };
 
 const items: Item[] = [
-  { id: "anime-thumb-1", title: "Anime/Fighting Thumbnail 1", genre: "Anime/Fighting", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Anime/Fighting thumbnail image.", image: animeFightingThumbnail1 },
-  { id: "anime-thumb-2", title: "Anime/Fighting Thumbnail 2", genre: "Anime/Fighting", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Anime/Fighting thumbnail image.", image: animeFightingThumbnail2 },
-  { id: "anime-thumb-3", title: "Anime/Fighting Thumbnail 3", genre: "Anime/Fighting", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Anime/Fighting thumbnail image.", image: animeFightingThumbnail3 },
-  { id: "anime-thumb-4", title: "Anime/Fighting Thumbnail 4", genre: "Anime/Fighting", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Anime/Fighting thumbnail image.", image: animeFightingThumbnail4 },
-  { id: "anime-thumb-5", title: "Anime/Fighting Thumbnail 5", genre: "Anime/Fighting", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Anime/Fighting thumbnail image.", image: animeFightingThumbnail5 },
-  { id: "sim-thumb-1", title: "Simulator/Progression Thumbnail 1", genre: "Simulator/Progression", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Simulator/Progression thumbnail image.", image: simulatorProgressionThumbnail1 },
-  { id: "sim-thumb-2", title: "Simulator/Progression Thumbnail 2", genre: "Simulator/Progression", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Simulator/Progression thumbnail image.", image: simulatorProgressionThumbnail2 },
-  { id: "sim-thumb-3", title: "Simulator/Progression Thumbnail 3", genre: "Simulator/Progression", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Simulator/Progression thumbnail image.", image: simulatorProgressionThumbnail3 },
-  { id: "sim-thumb-4", title: "Simulator/Progression Thumbnail 4", genre: "Simulator/Progression", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Simulator/Progression thumbnail image.", image: simulatorProgressionThumbnail4 },
-  { id: "sim-thumb-5", title: "Simulator/Progression Thumbnail 5", genre: "Simulator/Progression", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Simulator/Progression thumbnail image.", image: simulatorProgressionThumbnail5 },
-  { id: "horror-thumb-1", title: "Horror/Mystery Thumbnail 1", genre: "Horror/Mystery", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Horror/Mystery thumbnail image.", image: horrorMysteryThumbnail1 },
-  { id: "horror-thumb-2", title: "Horror/Mystery Thumbnail 2", genre: "Horror/Mystery", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Horror/Mystery thumbnail image.", image: horrorMysteryThumbnail2 },
-  { id: "horror-thumb-3", title: "Horror/Mystery Thumbnail 3", genre: "Horror/Mystery", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Horror/Mystery thumbnail image.", image: horrorMysteryThumbnail3 },
-  { id: "military-thumb-1", title: "Military/Action/RP Thumbnail 1", genre: "Military/Action/RP", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Military/Action/RP thumbnail image.", image: militaryActionRpThumbnail1 },
-  { id: "military-thumb-2", title: "Military/Action/RP Thumbnail 2", genre: "Military/Action/RP", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Military/Action/RP thumbnail image.", image: militaryActionRpThumbnail2 },
-  { id: "military-thumb-3", title: "Military/Action/RP Thumbnail 3", genre: "Military/Action/RP", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 Military/Action/RP thumbnail image.", image: militaryActionRpThumbnail3 },
-  { id: "city-thumb-1", title: "City/Lifestyle/RP Thumbnail 1", genre: "City/Lifestyle/RP", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 City/Lifestyle/RP thumbnail image.", image: cityLifestyleRpThumbnail1 },
-  { id: "city-thumb-2", title: "City/Lifestyle/RP Thumbnail 2", genre: "City/Lifestyle/RP", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 City/Lifestyle/RP thumbnail image.", image: cityLifestyleRpThumbnail2 },
-  { id: "city-thumb-3", title: "City/Lifestyle/RP Thumbnail 3", genre: "City/Lifestyle/RP", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 City/Lifestyle/RP thumbnail image.", image: cityLifestyleRpThumbnail3 },
-  { id: "city-thumb-4", title: "City/Lifestyle/RP Thumbnail 4", genre: "City/Lifestyle/RP", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 City/Lifestyle/RP thumbnail image.", image: cityLifestyleRpThumbnail4 },
-  { id: "city-thumb-5", title: "City/Lifestyle/RP Thumbnail 5", genre: "City/Lifestyle/RP", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 City/Lifestyle/RP thumbnail image.", image: cityLifestyleRpThumbnail5 },
-  { id: "city-thumb-6", title: "City/Lifestyle/RP Thumbnail 6", genre: "City/Lifestyle/RP", type: "Thumbnail", note: "Replace this placeholder with your own 16:9 City/Lifestyle/RP thumbnail image.", image: cityLifestyleRpThumbnail6 },
-  { id: "anime-icon-1", title: "Anime/Fighting Icon 1", genre: "Anime/Fighting", type: "Icon", note: "Replace this placeholder with your own Anime/Fighting icon image.", image: animeFightingIcon1 },
-  { id: "city-icon-1", title: "City/Lifestyle/RP Icon 1", genre: "City/Lifestyle/RP", type: "Icon", note: "Replace this placeholder with your own City/Lifestyle/RP icon image.", image: cityLifestyleRpIcon1 },
-  { id: "sim-icon-1", title: "Simulator/Progression Icon 1", genre: "Simulator/Progression", type: "Icon", note: "Replace this placeholder with your own Simulator/Progression icon image.", image: simulatorProgressionIcon1 },
-  { id: "sim-icon-2", title: "Simulator/Progression Icon 2", genre: "Simulator/Progression", type: "Icon", note: "Replace this placeholder with your own Simulator/Progression icon image.", image: simulatorProgressionIcon2 },
+  { id: "anime-thumb-1", title: "Anime/Fighting Thumbnail 1", genre: "Anime/Fighting", type: "Thumbnail", image: animeFightingThumbnail1 },
+  { id: "anime-thumb-2", title: "Anime/Fighting Thumbnail 2", genre: "Anime/Fighting", type: "Thumbnail", image: animeFightingThumbnail2 },
+  { id: "anime-thumb-3", title: "Anime/Fighting Thumbnail 3", genre: "Anime/Fighting", type: "Thumbnail", image: animeFightingThumbnail3 },
+  { id: "anime-thumb-4", title: "Anime/Fighting Thumbnail 4", genre: "Anime/Fighting", type: "Thumbnail", image: animeFightingThumbnail4 },
+  { id: "anime-thumb-5", title: "Anime/Fighting Thumbnail 5", genre: "Anime/Fighting", type: "Thumbnail", image: animeFightingThumbnail5 },
+  { id: "sim-thumb-1", title: "Simulator/Progression Thumbnail 1", genre: "Simulator/Progression", type: "Thumbnail", image: simulatorProgressionThumbnail1 },
+  { id: "sim-thumb-2", title: "Simulator/Progression Thumbnail 2", genre: "Simulator/Progression", type: "Thumbnail", image: simulatorProgressionThumbnail2 },
+  { id: "sim-thumb-3", title: "Simulator/Progression Thumbnail 3", genre: "Simulator/Progression", type: "Thumbnail", image: simulatorProgressionThumbnail3 },
+  { id: "sim-thumb-4", title: "Simulator/Progression Thumbnail 4", genre: "Simulator/Progression", type: "Thumbnail", image: simulatorProgressionThumbnail4 },
+  { id: "sim-thumb-5", title: "Simulator/Progression Thumbnail 5", genre: "Simulator/Progression", type: "Thumbnail", image: simulatorProgressionThumbnail5 },
+  { id: "horror-thumb-1", title: "Horror/Mystery Thumbnail 1", genre: "Horror/Mystery", type: "Thumbnail", image: horrorMysteryThumbnail1 },
+  { id: "horror-thumb-2", title: "Horror/Mystery Thumbnail 2", genre: "Horror/Mystery", type: "Thumbnail", image: horrorMysteryThumbnail2 },
+  { id: "horror-thumb-3", title: "Horror/Mystery Thumbnail 3", genre: "Horror/Mystery", type: "Thumbnail", image: horrorMysteryThumbnail3 },
+  { id: "military-thumb-1", title: "Military/Action/RP Thumbnail 1", genre: "Military/Action/RP", type: "Thumbnail", image: militaryActionRpThumbnail1 },
+  { id: "military-thumb-2", title: "Military/Action/RP Thumbnail 2", genre: "Military/Action/RP", type: "Thumbnail", image: militaryActionRpThumbnail2 },
+  { id: "military-thumb-3", title: "Military/Action/RP Thumbnail 3", genre: "Military/Action/RP", type: "Thumbnail", image: militaryActionRpThumbnail3 },
+  { id: "city-thumb-1", title: "City/Lifestyle/RP Thumbnail 1", genre: "City/Lifestyle/RP", type: "Thumbnail", image: cityLifestyleRpThumbnail1 },
+  { id: "city-thumb-2", title: "City/Lifestyle/RP Thumbnail 2", genre: "City/Lifestyle/RP", type: "Thumbnail", image: cityLifestyleRpThumbnail2 },
+  { id: "city-thumb-3", title: "City/Lifestyle/RP Thumbnail 3", genre: "City/Lifestyle/RP", type: "Thumbnail", image: cityLifestyleRpThumbnail3 },
+  { id: "city-thumb-4", title: "City/Lifestyle/RP Thumbnail 4", genre: "City/Lifestyle/RP", type: "Thumbnail", image: cityLifestyleRpThumbnail4 },
+  { id: "city-thumb-5", title: "City/Lifestyle/RP Thumbnail 5", genre: "City/Lifestyle/RP", type: "Thumbnail", image: cityLifestyleRpThumbnail5 },
+  { id: "city-thumb-6", title: "City/Lifestyle/RP Thumbnail 6", genre: "City/Lifestyle/RP", type: "Thumbnail", image: cityLifestyleRpThumbnail6 },
+  { id: "anime-icon-1", title: "Anime/Fighting Icon 1", genre: "Anime/Fighting", type: "Icon", image: animeFightingIcon1 },
+  { id: "city-icon-1", title: "City/Lifestyle/RP Icon 1", genre: "City/Lifestyle/RP", type: "Icon", image: cityLifestyleRpIcon1 },
+  { id: "sim-icon-1", title: "Simulator/Progression Icon 1", genre: "Simulator/Progression", type: "Icon", image: simulatorProgressionIcon1 },
+  { id: "sim-icon-2", title: "Simulator/Progression Icon 2", genre: "Simulator/Progression", type: "Icon", image: simulatorProgressionIcon2 },
 ];
 
 const categories = ["Featured", "Anime/Fighting", "Simulator/Progression", "Horror/Mystery", "Military/Action/RP", "City/Lifestyle/RP", "Icons", "Thumbnails"] as const;
@@ -85,7 +84,6 @@ export function Portfolio() {
         <SectionHeader
           eyebrow="Portfolio"
           title="Curated work, organized by genre"
-          subtitle="Replace the image files in src/assets/image with your own icons and thumbnails. Keep the same filenames, or update the imports at the top of this file."
         />
 
         <div className="mt-8 flex flex-wrap items-center gap-2">
@@ -123,7 +121,7 @@ export function Portfolio() {
 function PortfolioCard({ item }: { item: Item }) {
   return (
     <article className="card-premium card-premium-hover overflow-hidden">
-      <div className="relative aspect-video overflow-hidden bg-surface">
+      <div className={`relative overflow-hidden bg-surface ${item.type === "Icon" ? "aspect-square" : "aspect-video"}`}>
         <img src={item.image} alt={item.title} loading="lazy" decoding="async" className="h-full w-full object-cover" />
         <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent" />
         <div className="absolute top-3 left-3 flex gap-2">
@@ -133,9 +131,6 @@ function PortfolioCard({ item }: { item: Item }) {
         <div className="absolute inset-x-4 bottom-4">
           <h3 className="font-display font-bold text-white text-xl leading-tight">{item.title}</h3>
         </div>
-      </div>
-      <div className="p-5">
-        <p className="text-sm text-muted-foreground leading-relaxed">{item.note}</p>
       </div>
     </article>
   );

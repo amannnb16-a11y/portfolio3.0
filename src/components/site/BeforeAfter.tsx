@@ -116,8 +116,8 @@ export function BeforeAfter() {
       <div className="mx-auto max-w-7xl px-5">
         <SectionHeader
           eyebrow="Before / After"
-          title="From Generic to Clickable"
-          subtitle="Many games have solid gameplay but weak first impressions. I rebuild the visual hook so the game's genre, reward and action are clearer before the player clicks."
+          title="See the process"
+          subtitle="See how your GFX develops from a base render into a polished, click-ready final design."
           center
         />
 

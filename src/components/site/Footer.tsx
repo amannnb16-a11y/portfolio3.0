@@ -38,7 +38,6 @@ export function Footer() {
           <div className="flex flex-wrap gap-4">
             <span>50% / 100% upfront</span>
             <span>No revshare</span>
-            <span>webp delivery included</span>
           </div>
         </div>
       </div>

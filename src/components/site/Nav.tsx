@@ -57,7 +57,7 @@ export function Nav() {
           {links.map((l) => (
             <a key={l.href} href={l.href} className="hover:text-foreground transition-colors">{l.label}</a>
           ))}
-          <Link to="/beyond-roblox" className="hover:text-foreground transition-colors">Beyond Roblox</Link>
+          <Link to="/beyond-roblox" className="font-semibold text-gold hover:text-gold/80 transition-colors">Steam Art</Link>
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
@@ -82,8 +82,8 @@ export function Nav() {
                 {l.label}
               </a>
             ))}
-            <Link to="/beyond-roblox" onClick={() => setOpen(false)} className="text-muted-foreground hover:text-foreground">
-              Beyond Roblox
+            <Link to="/beyond-roblox" onClick={() => setOpen(false)} className="font-semibold text-gold hover:text-gold/80">
+              Steam Art
             </Link>
             <a href="#contact" onClick={() => setOpen(false)} className="mt-2 inline-flex justify-center rounded-lg bg-gradient-cyan px-4 py-2.5 font-semibold text-primary-foreground glow-cyan">
               DM on Discord

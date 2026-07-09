@@ -5,7 +5,7 @@ const steps = [
   { icon: FileText, title: "Send Your Game Details", desc: "Send your game link, genre, deadline, required assets and references." },
   { icon: Lightbulb, title: "Creative Direction", desc: "We identify the strongest visual hook: action, reward, mystery, character, progression or atmosphere." },
   { icon: Palette, title: "GFX Production", desc: "I build the scene, lighting, composition and Photoshop polish." },
-  { icon: Send, title: "Delivery & Revisions", desc: "You receive webp files with included minor revisions." },
+  { icon: Send, title: "Delivery & Revisions", desc: "You receive .png files with included minor revisions." },
 ];
 
 export function Process() {
