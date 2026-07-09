@@ -57,6 +57,8 @@ export function Nav() {
           {links.map((l) => (
             <a key={l.href} href={l.href} className="hover:text-foreground transition-colors">{l.label}</a>
           ))}
+          <Link to="/clients" className="font-semibold text-cyan hover:text-cyan/80 transition-colors">Client Portal</Link>
+          <Link to="/terms-and-conditions" className="hover:text-foreground transition-colors">T&amp;C</Link>
           <Link to="/beyond-roblox" className="font-semibold text-gold hover:text-gold/80 transition-colors">Steam Art</Link>
         </nav>
 
@@ -82,6 +84,12 @@ export function Nav() {
                 {l.label}
               </a>
             ))}
+            <Link to="/clients" onClick={() => setOpen(false)} className="font-semibold text-cyan hover:text-cyan/80">
+              Client Portal
+            </Link>
+            <Link to="/terms-and-conditions" onClick={() => setOpen(false)} className="text-muted-foreground hover:text-foreground">
+              T&amp;C
+            </Link>
             <Link to="/beyond-roblox" onClick={() => setOpen(false)} className="font-semibold text-gold hover:text-gold/80">
               Steam Art
             </Link>
