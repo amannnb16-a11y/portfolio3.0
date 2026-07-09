@@ -34,7 +34,7 @@ const reviews = [
     id: 5,
     username: "UserFive",
     avatar: "/images/profiles/user-five.webp",
-    rating: 2,
+    rating: 3,
     review: "Delivered as promised.",
   },
 ];
